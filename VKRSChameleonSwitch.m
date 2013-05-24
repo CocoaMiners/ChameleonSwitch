@@ -16,7 +16,7 @@
 #import "VKRSChameleonSwitch.h"
 #import <QuartzCore/QuartzCore.h>
 
-#define TAP_SENSITIVITY 1 //margin of error to detect if the switch was tapped or swiped.
+#define TAP_SENSITIVITY 10 //margin of error to detect if the switch was tapped or swiped.
 #define ANIMATION_DURATION 0.23
 
 @interface VKRSChameleonSwitch ()
