@@ -30,7 +30,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 @property(nonatomic, getter=isOn) BOOL on;
 
-/* background image width must be (border.width - button.width/2 - padding) * 2. Background, button, border must be of equal height. The size of the switch will be the size of the background image */
+/* background image width must be (border.width - button.width/2 - horizontalButtonOffset) * 2. Background, button, border must be of equal height. The size of the switch will be the size of the background image */
 
 - (id)initWithOrigin:(CGPoint)origin
      backgroundImage:(UIImage *)bgImage
